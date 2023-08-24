@@ -1,0 +1,15 @@
+{
+  "name": "lazy-ani",
+  "version": "1.0.0",
+  "description": "dymaticly add animation to dom,when scroll to the dom, trigger the dom animation",
+  "main": "dist/lazy-ani.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation",
+    "scroll"
+  ],
+  "author": "hongyu",
+  "license": "ISC"
+}

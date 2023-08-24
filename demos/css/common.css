@@ -1,0 +1,15 @@
+.w100p {
+ width: 100%;
+}
+.w33p {
+ width: 33.33%;
+}
+.flex {
+ display: flex;
+}
+.justify-around {
+ justify-content: space-around;
+}
+.flex-1 {
+ flex: 1;
+}
