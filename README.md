@@ -1,7 +1,7 @@
 
 # lazy-ani.js
 
-lazy-ani.js是一个自研的js库，他可以实现动态添加动画效果，
+lazy-ani.js是一个js库，他可以实现动态添加动画效果，包大小仅6kb
 
 ## 使用场景
 
