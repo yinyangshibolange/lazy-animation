@@ -2,75 +2,98 @@
 <html>
 
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
- <link rel="stylesheet" href="css/common.css">
- <script src="../dist/lazy-animation.umd.min.js"></script>
- <script src="js/lazyload.min.js"></script>
- <link rel="shortcut icon" href="favicon.ico">
- <meta charset="utf-8">
- <link rel="stylesheet" href="css/animate.min.css">
- <title>首页</title>
- <style>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   <link rel="stylesheet" href="css/common.css">
+   <script src="../dist/lazy-animation.umd.min.js"></script>
+   <script src="js/lazyload.min.js"></script>
+   <link rel="shortcut icon" href="favicon.ico">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <title>首页</title>
+   <style>
 
- </style>
+   </style>
 </head>
 
 
 <body>
 
 
- <div class="container">
+   <div class="container">
 
 
-  <div class="block-2 p-relative">
-   <img src="https://i.postimg.cc/YSt3GFK7/R.gif" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <img src="https://i.postimg.cc/RFHQ2Lwc/R-C-1.jpg" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <img src="https://i.postimg.cc/j5Hnzgzk/R-C.jpg" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <div style="background: rgb(29, 31, 24); color: #fff; height: 200px;" class="lazy-ani w100p" data-ani-trigger="top" data-ani-class="animate__animated animate__fadeInTopLeft">
-    在头部top触发
-   </div>
-   <div style="background: #a0f; color: #fff; height: 200px;" class="lazy-ani w100p" data-ani-trigger="top+50%" data-ani-class="animate__animated animate__fadeInTopLeft">
-    在中间center触发
-   </div>
-   <div style="background: rgb(252, 115, 23); color: #fff; height: 200px;" class="lazy-ani w100p" data-ani-trigger="bottom" data-ani-class="animate__animated animate__fadeInTopLeft">
-    在底部bottom触发
-   </div>
-   <div style="background: rgb(252, 115, 23); color: #fff; height: 200px;" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-    默认底部bottom触发
-   </div>
-   <img src="https://i.postimg.cc/VvNsdD4t/f603918fa0ec08fa5543c1611cee3d6d54fbdab1.jpg" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <img src="https://i.postimg.cc/VvNsdD4t/f603918fa0ec08fa5543c1611cee3d6d54fbdab1.jpg" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <img src="https://i.postimg.cc/VvNsdD4t/f603918fa0ec08fa5543c1611cee3d6d54fbdab1.jpg" class="lazy-ani w100p" data-ani-class="animate__animated animate__fadeInTopLeft">
-   <div>
-    下面两个是懒加载的图片，可通过控制台查看
-   </div>
-   <img data-src="https://i.postimg.cc/XJzmkL4d/v2-d0fc4accef28625e72b2df81b7cf249d-720w.jpg" class="lazy-ani lazyload w100p" style="height: 200px; object-fit: cover;" data-ani-class="animate__animated animate__bounceInLeft">
-   <img data-src="https://i.postimg.cc/mkQxZMW9/Snipaste-2022-08-24-09-43-24.png" class="lazy-ani lazyload w100p" style="height: 200px; object-fit: cover;" data-ani-class="animate__animated animate__fadeIn">
-   <div>
-    上面两个是懒加载的图片，可通过控制台查看
-   </div>
-   <!-- 空余上文字 -->
-   <div class="flex w100p justify-around">
-    <img src="https://i.postimg.cc/YSt3GFK7/R.gif" class="lazy-ani w33p" data-ani-name="kongAni" data-ani-0%="transform: translate(-45vw, 0);"
-     data-ani-100%="transform: translate(0, 0);" data-ani-duration="0.5s" data-ani-function="ease-in-out">
-    <img src="https://i.postimg.cc/RFHQ2Lwc/R-C-1.jpg" class="lazy-ani  w33p" data-ani-from="transform: translate(-69vw, 0);"
-     data-ani-to="transform: translate(0, 0);" data-ani-duration="0.6s" data-ani-function="ease-in-out"
-     data-ani-delay="0.5s">
-    <img src="https://i.postimg.cc/j5Hnzgzk/R-C.jpg" class="lazy-ani  w33p" data-ani-0%="transform: translate(-100vw, 0);"
-     data-ani-100%="transform: translate(0, 0);" data-ani-duration="0.7s" data-ani-function="ease-in-out"
-     data-ani-delay="0.9s">
+      <div class="block-2 p-relative">
+         <img src="https://i.postimg.cc/YSt3GFK7/R.gif" class="lazy-ani w100p"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+         <img src="https://i.postimg.cc/RFHQ2Lwc/R-C-1.jpg" class="lazy-ani w100p"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+         <img src="https://i.postimg.cc/j5Hnzgzk/R-C.jpg" class="lazy-ani w100p"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+         <div style="background: rgb(29, 31, 24); color: #fff; height: 200px;" class="lazy-ani w100p"
+            data-ani-trigger="top" data-ani-class="animate__animated animate__fadeInTopLeft">
+            在头部top触发
+         </div>
+         <div style="background: #a0f; color: #fff; height: 200px;" class="lazy-ani w100p" data-ani-trigger="top+50%"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+            在中间center触发
+         </div>
+         <div style="background: rgb(252, 115, 23); color: #fff; height: 200px;" class="lazy-ani w100p"
+            data-ani-trigger="bottom" data-ani-class="animate__animated animate__fadeInTopLeft">
+            在底部bottom触发
+         </div>
+         <div style="background: rgb(3, 115, 23); color: #fff; height: 200px;" class="lazy-ani w100p"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+            默认底部bottom触发
+         </div>
+         <img src="https://i.postimg.cc/VvNsdD4t/f603918fa0ec08fa5543c1611cee3d6d54fbdab1.jpg" class="lazy-ani w100p"
+            data-ani-class="animate__animated animate__fadeInTopLeft">
+
+         <div class="lazy-ani w100p"
+         style="background: rgb(93, 55, 3); color: #fff; height: 200px;"
+         data-ani-name="moveAndRotate"
+            data-ani-0%="transform: translate(-100vw, 0)  rotate(180deg);"
+            data-ani-100%="transform: translate(0, 0)  rotate(0deg);" data-ani-duration="0.5s">
+            定义动画效果moveAndRotate
+         </div>
+         <div class="lazy-ani w100p"
+         style="background: rgb(198, 5, 99); color: #fff; height: 200px;"
+         data-ani-name="moveAndRotate" data-ani-duration="0.5s">
+            复用上一个动画效果
+         </div>
+         <div>
+            下面两个是懒加载的图片，可通过控制台查看
+         </div>
+         <img data-src="https://i.postimg.cc/XJzmkL4d/v2-d0fc4accef28625e72b2df81b7cf249d-720w.jpg"
+            class="lazy-ani lazyload w100p" style="height: 200px; object-fit: cover;"
+            data-ani-class="animate__animated animate__bounceInLeft">
+         <img data-src="https://i.postimg.cc/mkQxZMW9/Snipaste-2022-08-24-09-43-24.png" class="lazy-ani lazyload w100p"
+            style="height: 200px; object-fit: cover;" data-ani-class="animate__animated animate__fadeIn">
+         <div>
+            上面两个是懒加载的图片，可通过控制台查看
+         </div>
+         <!-- 空余上文字 -->
+         <div class="flex w100p justify-around">
+            <img src="https://i.postimg.cc/YSt3GFK7/R.gif" class="lazy-ani w33p" data-ani-name="kongAni"
+               data-ani-0%="transform: translate(-45vw, 0);" data-ani-100%="transform: translate(0, 0);"
+               data-ani-duration="0.5s" data-ani-function="ease-in-out">
+            <img src="https://i.postimg.cc/RFHQ2Lwc/R-C-1.jpg" class="lazy-ani  w33p"
+               data-ani-from="transform: translate(-69vw, 0);" data-ani-to="transform: translate(0, 0);"
+               data-ani-duration="0.6s" data-ani-function="ease-in-out" data-ani-delay="0.5s">
+            <img src="https://i.postimg.cc/j5Hnzgzk/R-C.jpg" class="lazy-ani  w33p"
+               data-ani-0%="transform: translate(-100vw, 0);" data-ani-100%="transform: translate(0, 0);"
+               data-ani-duration="0.7s" data-ani-function="ease-in-out" data-ani-delay="0.9s">
+         </div>
+
+      </div>
+
+
+
+      <!-- container end -->
    </div>
 
-  </div>
-
-
-
-  <!-- container end -->
- </div>
-
- <script>
-new LazyLoad(document.querySelectorAll("img.lazyload"));
-   lazyAni()
+   <script>
+      new LazyLoad(document.querySelectorAll("img.lazyload"));
+      lazyAni()
    </script>
 </body>
 

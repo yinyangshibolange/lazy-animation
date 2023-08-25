@@ -88,11 +88,15 @@
             var lazyAniDoms = document.querySelectorAll(selector);
             var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-            eachDom(lazyAniDoms, function (dom) {
+            console.log(scrollTop);
+
+            eachDom(lazyAniDoms, function (dom,k) {
                 var dataset = dom.dataset;
                 var aniTrigger = dataset.aniTrigger || 'bottom';
                 var animation = dataset.animation;
                 var aniClass = dataset.aniClass;
+
+                console.log(`${k+1}: ${dataset.bottom}`);
 
                 if(typeof dataset.top === 'undefined' || typeof dataset.bottom === 'undefined' || typeof dataset.height === 'undefined') return
                 function triggerAnimation (_dom) {
@@ -211,10 +215,10 @@
 
                 var rect = dom.getBoundingClientRect();
                 if(rect.height > 0) {
-                    dom.setAttribute('data-top', rect.top);
-                    dom.setAttribute('data-bottom', rect.bottom);
-                    dom.setAttribute('data-left', rect.left);
-                    dom.setAttribute('data-right', rect.right);
+                    dom.setAttribute('data-top', rect.top + window.scrollY);
+                    dom.setAttribute('data-bottom', rect.bottom + window.scrollY);
+                    dom.setAttribute('data-left', rect.left + window.scrollX);
+                    dom.setAttribute('data-right', rect.right + window.scrollX);
                     dom.setAttribute('data-width', rect.width);
                     dom.setAttribute('data-height', rect.height);
                     dom.setAttribute('data-animation', `${aniName} ${aniDuration} ${aniFunction} ${aniDelay} forwards`);

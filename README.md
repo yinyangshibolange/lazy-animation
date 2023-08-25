@@ -1,7 +1,7 @@
 
-# lazy-ani.js
+# lazy-animation.js
 
-lazy-ani.js是一个js库，他可以实现动态添加动画效果，包大小仅6kb
+lazy-animation.js是一个js库，他可以实现动态添加动画效果，js大小仅6kb
 
 ## 使用场景
 
@@ -94,4 +94,4 @@ b. 已经定义好keyframes
 
 - \d+%表示百分数,比如30%，50%等等，这个百分数对应的是元素的高度，比如top+50%和bottom-50%就是到元素的中间位置触发动画
 
-### 注意: lazy-ani.js如果要和lazyload.js一起使用，那么必须固定lazyload的图片的宽高，否者会定位不准。如果懒加载的图片没有使用lazy-ani动画，那么只要让他脱离文档流，这样的话也不会影响其他动画的触发。
+### 注意: lazy-animation.js如果要和lazyload.js一起使用，那么必须固定lazyload的图片的宽高，否者会定位不准。如果懒加载的图片没有使用lazy-ani动画，那么只要让他脱离文档流，这样的话也不会影响其他动画的触发。
