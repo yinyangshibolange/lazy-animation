@@ -1,7 +1,7 @@
 {
   "name": "lazy-ani",
   "version": "1.0.0",
-  "description": "dymaticly add animation to dom,when scroll to the dom, trigger the dom animation",
+  "description": "dymaticly add animation to dom,when scroll to the dom, trigger the dom animation;动态添加动画，窗口滚动到指定元素位置时触发动画",
   "main": "dist/lazy-ani.umd.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
     "animation",
     "scroll"
   ],
+  "files": ["dist/"],
   "author": "hongyu",
   "license": "ISC"
 }
